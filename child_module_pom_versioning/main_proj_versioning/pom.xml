@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>outer_pom</groupId>
+		<artifactId>child_module_pom_versioning</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<groupId>outer_pom</groupId>
+	<artifactId>main_proj_versioning</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>main_proj_versioning</name>
+	<packaging>war</packaging>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>outer_pom</groupId>
+			<!-- <artifactId>child_module_pom</artifactId> -->
+			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>domain_v1</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>outer_pom</groupId>
+			<!-- <artifactId>child_module_pom</artifactId> -->
+			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>exceptions_v1</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>outer_pom</groupId>
+			<!-- <artifactId>child_module_pom</artifactId> -->
+			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>dto_v1</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>outer_pom</groupId>
+			<!-- <artifactId>child_module_pom</artifactId> -->
+			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>domain_v2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>outer_pom</groupId>
+			<!-- <artifactId>child_module_pom</artifactId> -->
+			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>exceptions_v2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>outer_pom</groupId>
+			<!-- <artifactId>child_module_pom</artifactId> -->
+			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>dto_v2</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<finalName>main_proj_versioning</finalName>
+	</build>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>outer_pom</groupId>
+		<artifactId>outer_pom</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>child_module_pom_versioning</artifactId>
+	<name>child_module_pom_versioning</name>
+	<description>child_module_pom_versioning</description>
+	<packaging>pom</packaging>
+
+  <modules>
+    <module>main_proj_versioning</module>
+    <module>version_1_jar</module>
+    <module>domain_v1</module>
+    <module>exceptions_v1</module>
+    <module>dto_v1</module>
+    <module>domain_v2</module>
+    <module>dto_v2</module>
+    <module>exceptions_v2</module>
+    <module>version_2_jar</module>
+  </modules>
+  
+  
+</project>
